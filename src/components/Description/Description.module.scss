@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 8px;
+}
+.text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}

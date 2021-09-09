@@ -6,7 +6,11 @@ export default class Random {
   }
 
   getRandomNum(min: number, max: number) {
-    this.num = Math.floor(Math.random() * (max - min)) + min;
+    if (max - min > 1) {
+      this.num = Math.floor(Math.random() * (max - min)) + min;
+    } else {
+      this.num = Math.round(2 - Math.random());
+    }
   }
 
   isEquals(value: number) {
@@ -18,6 +22,13 @@ export default class Random {
 
   includesInArray(values: number[]) {
     if (values.includes(this.num)) {
+      return true;
+    }
+    return false;
+  }
+
+  includesInArrayRandom(values: Random[]) {
+    if (values.map((val) => val.num).includes(this.num)) {
       return true;
     }
     return false;
