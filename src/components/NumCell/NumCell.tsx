@@ -9,10 +9,9 @@ interface INumCellProps {
 }
 
 const NumCell: React.FC<INumCellProps> = ({ cell, onClick }) => (
-  <div
+  <button
+    type="button"
     className={classnames(styles.cell, cell.isClicked ? styles.clicked : undefined)}
-    role="button"
-    tabIndex={0}
     onClick={onClick}
     onKeyDown={(e) => {
       if (e.code === 'Enter' && onClick) {
@@ -21,7 +20,7 @@ const NumCell: React.FC<INumCellProps> = ({ cell, onClick }) => (
     }}
   >
     <p className={styles.text}>{cell.num}</p>
-  </div>
+  </button>
 );
 
 NumCell.defaultProps = {

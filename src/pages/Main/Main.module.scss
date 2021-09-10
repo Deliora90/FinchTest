@@ -8,9 +8,16 @@
 }
 .container{
   padding: 14px 11px 24px 11px;
-  min-width: 296px;
+  min-width: 782px;
+  min-height: 50%;
   background-color: #FFFFFF;
   border-radius: 3px;
+  @media screen and (max-width: 820.98px) {
+    min-width: 296px;
+    width: 80%;
+    margin: 0px 20px;
+  }
+
 }
 .header{
   display: flex;
@@ -18,6 +25,24 @@
   justify-content: space-between;
   align-items: center;
 }
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .icon{
   cursor: pointer;
+}
+.title{
+  margin-bottom: 12px;
+}
+.description{
+  margin-bottom: 8px;
+}
+.field{
+  margin-bottom: 16px;
+}
+.button{
+  margin-top: 7px;
 }
