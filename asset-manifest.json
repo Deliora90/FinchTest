@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FinchTest/static/css/main.779fc232.chunk.css",
+    "main.js": "/FinchTest/static/js/main.1faf825e.chunk.js",
+    "main.js.map": "/FinchTest/static/js/main.1faf825e.chunk.js.map",
+    "runtime-main.js": "/FinchTest/static/js/runtime-main.efd33314.js",
+    "runtime-main.js.map": "/FinchTest/static/js/runtime-main.efd33314.js.map",
+    "static/js/2.eed99180.chunk.js": "/FinchTest/static/js/2.eed99180.chunk.js",
+    "static/js/2.eed99180.chunk.js.map": "/FinchTest/static/js/2.eed99180.chunk.js.map",
+    "index.html": "/FinchTest/index.html",
+    "static/css/main.779fc232.chunk.css.map": "/FinchTest/static/css/main.779fc232.chunk.css.map",
+    "static/js/2.eed99180.chunk.js.LICENSE.txt": "/FinchTest/static/js/2.eed99180.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/FinchTest/static/media/Roboto-Regular.9fccf7bd.woff",
+    "static/media/magic-wand.a0d7486c.svg": "/FinchTest/static/media/magic-wand.a0d7486c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efd33314.js",
+    "static/js/2.eed99180.chunk.js",
+    "static/css/main.779fc232.chunk.css",
+    "static/js/main.1faf825e.chunk.js"
+  ]
+}
